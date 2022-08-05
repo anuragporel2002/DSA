@@ -5,4 +5,5 @@ def InsertEnd(arr,length,value):
     else:
         print("Array is Full")
 
-InsertEnd([1,2,3,4,5],6,6)
+if __name__=="__main__":
+    InsertEnd([1,2,3,4,5],6,6)

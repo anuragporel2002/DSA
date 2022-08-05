@@ -7,4 +7,5 @@ def DeleteAtIndex(arr,index):
         del(arr[-1])
     print(arr)
 
-DeleteAtIndex([1,2,3,4,5],2)
+if __name__=="__main__":
+    DeleteAtIndex([1,2,3,4,5],2)

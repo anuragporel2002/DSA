@@ -5,4 +5,5 @@ def DeleteEnd(arr):
         del(arr[-1])
     print(arr)
 
-DeleteEnd([1,2,3,4,5])
+if __name__=="__main__":
+    DeleteEnd([1,2,3,4,5])

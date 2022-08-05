@@ -8,4 +8,5 @@ def LinearSearch(arr,value):
     if(i==len(arr)):
         print("{} not found in the array.".format(value))
 
-LinearSearch([1,2,3,4,5],2)
+if __name__=="__main__":
+    LinearSearch([1,2,3,4,5],2)

@@ -8,4 +8,5 @@ def InsertStart(arr,length,value):
     else:
         print("Array is full")
 
-InsertStart([1,2,3,4,5],6,0)
+if __name__=="__main__":
+    InsertStart([1,2,3,4,5],6,0)

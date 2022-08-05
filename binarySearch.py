@@ -13,5 +13,5 @@ def BinarySearch(arr,value):
             high=mid-1
     if(low==high):
         print("{} not found in the array.".format(value))
-
-BinarySearch([1,2,3,4,5,6],6)
+if __name__=="__main__":
+    BinarySearch([1,2,3,4,5,6],6)

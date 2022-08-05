@@ -8,4 +8,5 @@ def InsertAtIndex(arr,length,index,value):
     else:
         print("Array is full")
 
-InsertAtIndex([1,2,3,4,5],6,2,9)
+if __name__=="__main__":
+    InsertAtIndex([1,2,3,4,5],6,2,9)
